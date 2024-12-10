@@ -28,9 +28,9 @@ Ensure you have the following before getting started:
 
 2. **Set Up the Data**:
    - Download data from the Algonauts website. Put this data into the `NSD` folder.
-   - In the `NSD` folder, you will find three CSV files: `categories.csv`, `largest_categories.csv`, and `largest_categories_weights.csv`, which contain the category annotation information of the 73,000 images used in the NSD dataset.
+   - In the `NSD` folder, you will find three CSV files: `categories.csv`, `largest_categories.csv`, and `largest_categories_weights.csv`, which contain the category annotation information of the 73K images used in the NSD dataset.
    - As described in the Algonauts challenge, each image contains an index that corresponds to the row in the 73K dataset it originated from.
-   - These three CSV files were generated from helper functions in `NSD/NSD Access`, which required an instance of the original (not Algonauts) NSD data for indexing purposes.
+   - These three CSV files were generated from helper functions in `NSD/NSD Access Helper Functions`, which required an instance of the original (not Algonauts) NSD data for indexing purposes.
 
 ---
 
@@ -38,7 +38,7 @@ Ensure you have the following before getting started:
 
 ### Alignment
 
-To train the alignment model, run the `run_Alignment.py` script:
+To train the alignment model, run the `run_alignment.py` script:
 
 ```bash
 python3 run_alignment.py
@@ -48,7 +48,7 @@ This script aligns image and text embeddings based on their shared semantic spac
 
 ### Reconstruction
 
-To train the reconstruction model, run the `run_Reconstruction.py` script:
+To train the reconstruction model, run the `run_reconstruction.py` script:
 
 ```bash
 python3 run_reconstruction.py
