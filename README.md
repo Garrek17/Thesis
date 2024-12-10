@@ -1,4 +1,4 @@
-# fMRI-Image Alignment and Reconstruction
+# Reconstructing Mental Imagery with Semantically Aligned Embeddings
 
 This repository facilitates working with the NSD dataset and COCO annotations for alignment and image reconstruction tasks. Below are instructions for setting up the project, data preparation, and running the scripts.
 
